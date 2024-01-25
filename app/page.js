@@ -17,7 +17,7 @@ async function HomPage() {
           {
             users.map((user) => {
               return (
-                <li key={user.id}>
+                <li key={user.id} className=''>
                   <h5>{user.id} {user.first_name} {user.last_name}</h5>
                   <p>email: {user.email}</p>
                 </li>
